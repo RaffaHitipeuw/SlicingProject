@@ -1,0 +1,210 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+.nav{
+  position: sticky;
+  top: 0;
+
+}
+.navigation {
+  padding-top: 20px;
+  font-family: sans-serif;
+  font-weight: 530;
+  display: flex;
+  background-color: white;
+  margin-bottom: 320px;
+  padding-bottom: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.navimage {
+  margin-left: 190px;
+  margin-right: 350px;
+}
+.navmenu {
+  margin-top: 18px;
+  text-indent: 40px;
+}
+ul {
+  list-style-type: none;
+  color: black;
+  display: flex;
+}
+.navbutton {
+  margin-left: 300px;
+}
+.navbutton button {
+  background: rgb(33, 149, 239);
+  background: linear-gradient(
+    34deg,
+    rgba(33, 149, 239, 1) 45%,
+    rgba(167, 213, 251, 1) 100%
+  );
+  color: white;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 30px;
+}
+
+
+/* Bagian Bawah (Navbar) */
+.inovasi{
+  padding-top: 160px;
+  color: white;
+  font-family: inter;
+  margin-top: -320px;
+  display: flex;
+  background: rgb(33, 149, 239);
+  background: linear-gradient(
+    180deg,
+    rgba(33, 149, 239, 1) 0%,
+    rgba(167, 213, 251, 1) 100%
+  );
+  height: 800px;
+  padding-left: 200px;
+  z-index: 2;
+
+}
+.inovasi h1{
+  font-size: 40px;
+}
+.inovasi p{
+  margin-top: 30px;
+}
+.inovasi span{
+  color: #FF4A4A;
+}
+.inovasiimg{
+  margin-top: 20px;
+  margin-left: 150px;
+}
+.inovasikiri button{
+  margin-top: 30px;
+  background-color: #FF3B30;
+  color: white;
+  border: none;
+  padding: 12px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 30px;
+  font-family: inter;
+}
+.gagasan{
+  background: rgb(39,161,255);
+  background: linear-gradient(0deg, rgba(39,161,255,1) 0%, rgba(255,255,255,1) 100%);
+  height: 1800px;
+
+}
+
+.kebutuhan{
+  font-family: inter;
+  background-color: white;  
+  width: 1400px;
+  height: 500px;
+  margin-left: 65px;
+  border-radius: 35px;
+  margin-top: -100px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+.kebutuhantengah{
+  text-align: center;
+  padding-top: 50px;
+}
+.kebutuhantengah h1{
+  color: black;
+  font-size: 35px;
+}
+.kebutuhantengah span{
+  color: #FF3B30;
+}
+.kebutuhantengah img{
+  margin-top: 30px;
+}
+.tentang{
+}
+.tentangbutton button{
+  background-color: white;
+  color: #2C9BF3;
+  border: none;
+  padding: 12px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 30px;
+  font-family: inter;
+  margin-top: 300px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-left: 650px;
+}
+.tentangbio{
+  margin-top: 100px;
+  margin-left: 110px;
+  display: flex;
+}
+.tentangbio h1{
+  color: black;
+  font-family: inter;
+  font-size: 30px;
+}
+.tentangbiokiri h1 span{
+  color: #FF3B30;
+}
+.tentangbiokiri p{
+  margin-top: 20px;
+  color: #383838;
+  font-family: inter;
+  font-size: 15px;
+}
+.tentangbiokiri p span{
+  color: #383838;
+  font-weight: bold;
+}
+.tentangbiokanan{
+  margin-left: 450px;
+}
+.masalah{
+  margin-top: 200px;
+}
+.masalah h1{
+ font-family: inter;
+ font-size: 30px;
+ color: white;
+ text-align: center;
+}
+.masalah h1 span{
+  color: #FF3B30;
+}
+.masalah p{
+  font-family: inter;
+  text-align: center;
+  font-size: 15px;
+  color: white;
+  margin-top: 10px;
+}
+.masalah img{
+  margin-left: 130px;
+  margin-top: 50px;
+}
+.atasi{
+
+}
+.atasi h1{
+  color: white;
+}
+.atasi h1 span{
+color: ;
+} 
+.atasi p{
+  
+}
+.atasi{}
