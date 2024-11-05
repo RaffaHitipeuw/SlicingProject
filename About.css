@@ -1,0 +1,346 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+  }
+  .navigation {
+    padding-top: 20px;
+    font-family: sans-serif;
+    font-weight: 530;
+    display: flex;
+    background-color: white;
+    margin-bottom: 320px;
+    padding-bottom: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .navimage {
+    margin-left: 190px;
+    margin-right: 350px;
+  }
+  .navmenu {
+    margin-top: 18px;
+    text-indent: 40px;
+  }
+  .navmenu a{
+    text-decoration: none;
+    color: gray;
+  }
+  .navmenu a:hover {
+    color: black;
+  }
+  ul {
+    list-style-type: none;
+    color: black;
+    display: flex;
+  }
+  .navbutton {
+    margin-left: 300px;
+  }
+  .navbutton button {
+    background: rgb(33, 149, 239);
+    background: linear-gradient(
+      34deg,
+      rgba(33, 149, 239, 1) 45%,
+      rgba(167, 213, 251, 1) 100%
+    );
+    color: white;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 30px;
+  }
+
+/* Head */
+.head{
+    z-index: 1;
+    margin-top: -550px;
+}
+.head h1{
+    font-family: inter;
+    font-size: 40px;
+    text-align: center;
+}
+.headtext{
+    position: absolute;
+    z-index: 2;
+    background-color: white;
+    width: 350px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 20px;
+    margin-top: -120px;
+    margin-left: 70px;
+}
+.siapa {
+    margin-top: 80px;
+    margin-left: 200px;
+}
+.siapa h1{
+    color: black;
+    font-family: inter;
+    font-size: 70px;
+    font-style: italic;
+}
+.siapa span{
+    color: #ff3b30;
+}
+.siapa h2{
+    margin-top: 10px;
+    font-family: inter;
+}
+.visi{
+    background-color: #2C9BF3;
+    display: flex;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    margin-top: 50px;
+}
+.visitext{
+  margin-left: 250px;
+}
+.visi span{
+    color: white;
+    text-align: right;
+    font-family: inter;
+    font-size: 20px;
+}  
+.visiimage h1{
+  font-family: inter;
+  font-size: 30px;
+  color: white;
+}
+.visiimage{
+  margin-left: 200px;
+}
+.visiimage img{
+  margin-top: 20px;
+  margin-left: 50px;
+}
+.misi{
+  background-color: #2C9BF3;
+  display: flex;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  margin-top: 50px;
+}
+.misiimage{
+  margin-left: 250px;
+}
+.misiimage img{
+  margin-top: 40px;
+}
+.misiimage h1{
+  font-family: inter;
+  font-size: 30px;
+  color: white;
+}
+.misitext{
+  margin-left: 150px;
+}
+.misitext h1{
+  color: white;
+  text-align: left;
+  font-family: inter;
+  font-size: 30px;
+}
+.pilihkami{
+  padding-top: 200px;
+  background-color: #F2F4F7;
+  height: 700px;
+}
+.pilihkamitext{
+  padding-left: 450px;
+}
+.pilihkamitext h1{
+  color: black;
+  font-family: inter;
+  font-size: 70px;
+  font-style: italic;
+}
+.pilihkamitext span{
+  color: #FF4A4A;
+  font-family: inter;
+  font-size: 70px;
+  font-style: italic;
+}
+.pilihkamitext h2{
+  color: black;
+  font-family: inter;
+}
+.pilihkamibawah{
+  margin-top: 100px;
+}
+.continti{
+  display: flex;
+  justify-content: center;
+}
+.consatu{
+  background-color: white;
+  width: 300px;
+  height: 230px;
+  margin-right: 10px;
+}
+.consatu img{
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.consatu h4{
+  color: black;
+  font-family: inter;
+  margin-top: 10px;
+  margin-left: 20px;
+  font-weight: normal;
+}
+.condua{
+  background-color: white;
+  width: 300px;
+  height: 230px;
+}
+.condua img{
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.condua h4{
+  color: black;
+  font-family: inter;
+  margin-top: 10px;
+  margin-left: 20px;
+  font-weight: normal;
+}
+.contiga{
+  background-color: white;
+  width: 300px;
+  height: 230px;
+  margin-left: 10px;
+}
+.contiga img{
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.contiga h4{
+  color: black;
+  font-family: inter;
+  margin-top: 10px;
+  margin-left: 20px;
+  font-weight: normal;
+}
+.footer{
+  background-color: white;
+  padding-top: 100px;
+}
+.footer h1{
+  font-family: inter;
+  text-align: center;
+  font-size: 40px;
+}
+.footer h1 span{
+  color: #ff3b30;
+}
+.footerbutton{
+  display: flex;
+}
+.footerbuttonwa button{
+  margin-top: 30px;
+  background-color: #ff3b30;
+  color: white;
+  border: none;
+  padding: 12px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 30px;
+  font-family: inter;
+  margin-left: 550px;
+
+}
+.buttondemo button{
+  margin-top: 28px;
+  margin-left: 20px;
+  background: rgb(33, 149, 239);
+  background: linear-gradient(
+    34deg,
+    rgba(33, 149, 239, 1) 45%,
+    rgba(167, 213, 251, 1) 100%
+  );
+  color: white;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 30px;
+}
+.backwave{
+  background: rgb(0,153,255);
+  background: linear-gradient(150deg, rgba(0,153,255,1) 86%, rgba(255,255,255,1) 100%);
+}
+.backwavetext{
+  height: 400px;
+  margin-top: -10px;
+  display: flex;
+}
+.wavedecsatu{
+  padding-top: 40px;
+  margin-left: 125px;
+  font-family: inter;
+  color: white;
+  font-size: 13px;
+  font-weight: normal;
+}
+.wavedecsatu img{
+  margin-bottom: 10px;
+}
+.wavedecsdua{
+  padding-top: 40px;
+  margin-left: 75px;
+}
+.wavedecsdua p{
+  margin-top: 15px;
+  color: white;
+  font-family: inter;
+  font-size: 13px;
+}
+.wavedecstiga{
+  padding-top: 40px;
+  margin-left: 75px;
+}
+.wavedecstiga p{
+  margin-top: 15px;
+  color: white;
+  font-family: inter;
+  font-size: 13px;
+}
+.wavedecsempat{
+  padding-top: 40px;
+  margin-left: 75px;
+}
+.wavedecsempat p{
+  margin-top: 15px;
+  color: white;
+  font-family: inter;
+  font-size: 13px;
+}
+.wavedecsempat li{
+  list-style-type: circle;
+  margin-top: 15px;
+  color: white;
+  font-family: inter;
+  font-size: 13px;
+}
+.copyright h1{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  font-family: inter;
+  font-size: 12px;
+}

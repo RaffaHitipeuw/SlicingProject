@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do List</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Nunito", sans-serif;
+        background-color: #f3feb8; /* Warna utama (60%) */
+      }
+      .custom-checkbox {
+        appearance: none;
+        background-color: #fff;
+        border: 2px solid #000;
+        padding: 10px;
+        display: inline-block;
+        position: relative;
+      }
+      .custom-checkbox:checked {
+        background-color: #444;
+      }
+      .custom-checkbox:checked::after {
+        content: "\2713";
+        font-size: 16px;
+        color: #fff;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      .content-container {
+        background-color: #ffde4d; /* Warna 20% */
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+      .inbox-content,
+      .history-content {
+        background-color: #ffb22c; /* Warna 10% */
+        padding: 16px;
+        border-radius: 8px;
+        margin-top: 10px;
+        color: #000;
+      }
+      .task-item {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+        background-color: #ffffff; /* Mengganti dengan putih */
+        border-radius: 5px;
+        color: #000;
+      }
+      .delete-btn {
+        color: #000; /* Warna tombol hapus */
+      }
+    </style>
+  </head>
+  <body class="flex flex-col items-center justify-center min-h-screen">
+    <div class="content-container w-11/12 max-w-4xl">
+      <div class="text-center mb-6">
+        <h1 class="text-4xl font-bold mb-2">To-Do List</h1>
+        <p class="text-xl">Silahkan buat plan anda disini!</p>
+      </div>
+
+      <!-- Input tugas ke tengah -->
+      <div class="relative mb-6 flex justify-center">
+        <input
+          type="text"
+          id="task-input"
+          placeholder="Ketuk enter untuk input tugas"
+          class="border-2 border-black rounded-lg py-2 px-4 w-96 text-center"
+        />
+      </div>
+
+      <!-- Daftar tugas dengan warna background inbox-content -->
+      <div class="inbox-content">
+        <h2 class="text-lg font-bold mb-4">Daftar Tugas:</h2>
+        <div id="task-list" class="grid grid-cols-1 gap-4"></div>
+        <p
+          id="empty-task-message"
+          class="text-center text-gray-800 mt-4 hidden"
+        >
+          Daftar tugas kosong, silahkan tambahkan tugas
+        </p>
+      </div>
+
+      <!-- Riwayat tugas dengan warna background history-content -->
+      <div class="history-content mt-6">
+        <h2 class="text-lg font-bold mb-4">Riwayat Tugas:</h2>
+        <div id="history-list" class="grid grid-cols-1 gap-4"></div>
+        <p
+          id="empty-history-message"
+          class="text-center text-gray-800 mt-4 hidden"
+        >
+          Riwayat kosong, silahkan selesaikan tugas
+        </p>
+      </div>
+    </div>
+
+    <script>
+      const taskInput = document.getElementById("task-input");
+      const taskList = document.getElementById("task-list");
+      const historyList = document.getElementById("history-list");
+      const emptyTaskMessage = document.getElementById("empty-task-message");
+      const emptyHistoryMessage = document.getElementById(
+        "empty-history-message"
+      );
+
+      let tasks = [];
+      let completedTasks = [];
+
+      function addTask() {
+        const taskText = taskInput.value.trim();
+        if (taskText) {
+          const task = {
+            text: taskText,
+            timestamp: new Date().toLocaleString(),
+          };
+          tasks.push(task);
+          taskInput.value = "";
+          renderTaskList();
+        }
+      }
+
+      taskInput.addEventListener("keypress", (event) => {
+        if (event.key === "Enter") {
+          addTask();
+        }
+      });
+
+      function renderTaskList() {
+        taskList.innerHTML = "";
+        if (tasks.length === 0) {
+          emptyTaskMessage.classList.remove("hidden");
+        } else {
+          emptyTaskMessage.classList.add("hidden");
+          tasks.forEach((task, index) => {
+            const taskElement = document.createElement("div");
+            taskElement.className = "task-item";
+            taskElement.innerHTML = `
+              <input type="checkbox" class="custom-checkbox mr-2" onchange="markTaskAsCompleted(${index})" />
+              <div>
+                <span class="font-bold">${task.text}</span>
+                <p class="text-sm">${task.timestamp}</p>
+              </div>
+              <button class="ml-auto delete-btn" onclick="deleteTask(${index})">
+                <i class="fas fa-trash"></i>
+              </button>
+            `;
+            taskList.appendChild(taskElement);
+          });
+        }
+      }
+
+      function renderHistoryList() {
+        historyList.innerHTML = "";
+        if (completedTasks.length === 0) {
+          emptyHistoryMessage.classList.remove("hidden");
+        } else {
+          emptyHistoryMessage.classList.add("hidden");
+          completedTasks.forEach((task, index) => {
+            const historyItem = document.createElement("div");
+            historyItem.className = "task-item";
+            historyItem.innerHTML = `
+              <div>
+                <span class="font-bold">${task.text}</span>
+                <p class="text-sm">${task.timestamp}</p>
+              </div>
+              <button class="ml-auto delete-btn" onclick="deleteHistory(${index})">
+                <i class="fas fa-trash"></i>
+              </button>
+            `;
+            historyList.appendChild(historyItem);
+          });
+        }
+      }
+
+      function markTaskAsCompleted(index) {
+        const task = tasks.splice(index, 1)[0];
+        completedTasks.push(task);
+        renderTaskList();
+        renderHistoryList();
+      }
+
+      function deleteTask(index) {
+        tasks.splice(index, 1);
+        renderTaskList();
+      }
+
+      function deleteHistory(index) {
+        completedTasks.splice(index, 1);
+        renderHistoryList();
+      }
+    </script>
+  </body>
+</html>

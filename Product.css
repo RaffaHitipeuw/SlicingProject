@@ -1,0 +1,331 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  .nav {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+  }
+  .navigation {
+    padding-top: 20px;
+    font-family: sans-serif;
+    font-weight: 530;
+    display: flex;
+    background-color: white;
+    margin-bottom: 320px;
+    padding-bottom: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .navimage {
+    margin-left: 190px;
+    margin-right: 350px;
+  }
+  .navmenu {
+    margin-top: 18px;
+    text-indent: 40px;
+  }
+  .navmenu a{
+    text-decoration: none;
+    color: gray;
+  }
+  .navmenu a:hover {
+    color: black;
+  }
+  ul {
+    list-style-type: none;
+    color: black;
+    display: flex;
+  }
+  .navbutton {
+    margin-left: 300px;
+  }
+  .navbutton button {
+    background: rgb(33, 149, 239);
+    background: linear-gradient(
+      34deg,
+      rgba(33, 149, 239, 1) 45%,
+      rgba(167, 213, 251, 1) 100%
+    );
+    color: white;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 30px;
+  }
+
+/* Head */
+.head{
+    z-index: 1;
+    margin-top: -550px;
+}
+.head h1{
+    font-family: inter;
+    font-size: 40px;
+    text-align: center;
+}
+.headtext{
+    position: absolute;
+    z-index: 2;
+    background-color: white;
+    width: 350px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 20px;
+    margin-top: -120px;
+    margin-left: 70px;
+}
+.upper{
+    padding-top: 120px;
+}
+.upper h1{
+    font-family: inter;
+    font-weight:  700;
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+}
+.middlecheck{
+    margin-left: 280px;
+    height: 1200px;
+}
+.kelas {
+    display: flex;
+    margin-top: 90px;
+}
+.kelasimage{
+    margin-top: 20px;
+    margin-right: 30px;
+}
+.kelastext span{
+    color: black;
+    font-family: inter;
+    font-weight: bold;
+}
+.kelastext h2 {
+    color: black;
+    font-family: inter;
+    font-weight: normal;
+}
+.Asrama {
+    display: flex;
+    margin-top: 40px;
+}
+.Asramaimage{
+    margin-top: 20px;
+    margin-right: 30px;
+}
+.Asramatext span{
+    color: black;
+    font-family: inter;
+    font-weight: bold;
+}
+.Asramatext h2 {
+    color: black;
+    font-family: inter;
+    font-weight: normal;
+}
+.Absensi {
+    display: flex;
+    margin-top: 40px;
+}
+.Absensiimage{
+    margin-top: 20px;
+    margin-right: 30px;
+}
+.Absensitext span{
+    color: black;
+    font-family: inter;
+    font-weight: bold;
+}
+.Absensitext h2 {
+    color: black;
+    font-family: inter;
+    font-weight: normal;
+}
+.Santri {
+    display: flex;
+    margin-top: 40px;
+}
+.Santriimage{
+    margin-top: 20px;
+    margin-right: 30px;
+}
+.Santritext span{
+    color: black;
+    font-family: inter;
+    font-weight: bold;
+}
+.Santritext h2 {
+    color: black;
+    font-family: inter;
+    font-weight: normal;
+}
+.Guru {
+    display: flex;
+    margin-top: 40px;
+}
+.Guruimage{
+    margin-top: 20px;
+    margin-right: 30px;
+}
+.Gurutext span{
+    color: black;
+    font-family: inter;
+    font-weight: bold;
+}
+.Gurutext h2 {
+    color: black;
+    font-family: inter;
+    font-weight: normal;
+}
+.Makan {
+    display: flex;
+    margin-top: 40px;
+}
+.Makanimage{
+    margin-top: 20px;
+    margin-right: 30px;
+}
+.Makantext span{
+    color: black;
+    font-family: inter;
+    font-weight: bold;
+}
+.Makantext h2 {
+    color: black;
+    font-family: inter;
+    font-weight: normal;
+}
+.Sholat {
+    display: flex;
+    margin-top: 40px;
+}
+.Sholatimage{
+    margin-top: 20px;
+    margin-right: 30px;
+}
+.Sholattext span{
+    color: black;
+    font-family: inter;
+    font-weight: bold;
+}
+.Sholattext h2 {
+    color: black;
+    font-family: inter;
+    font-weight: normal;
+}
+.footer{
+    background-color: white;
+  }
+  .footer h1{
+    font-family: inter;
+    text-align: center;
+    font-size: 40px;
+  }
+  .footer h1 span{
+    color: #ff3b30;
+  }
+  .footerbutton{
+    display: flex;
+  }
+  .footerbuttonwa button{
+    margin-top: 30px;
+    background-color: #ff3b30;
+    color: white;
+    border: none;
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 30px;
+    font-family: inter;
+    margin-left: 550px;
+  
+  }
+  .buttondemo button{
+    margin-top: 28px;
+    margin-left: 20px;
+    background: rgb(33, 149, 239);
+    background: linear-gradient(
+      34deg,
+      rgba(33, 149, 239, 1) 45%,
+      rgba(167, 213, 251, 1) 100%
+    );
+    color: white;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 30px;
+  }
+  .backwave{
+    background: rgb(0,153,255);
+    background: linear-gradient(150deg, rgba(0,153,255,1) 86%, rgba(255,255,255,1) 100%);
+  }
+  .backwavetext{
+    height: 400px;
+    margin-top: -10px;
+    display: flex;
+  }
+  .wavedecsatu{
+    padding-top: 40px;
+    margin-left: 125px;
+    font-family: inter;
+    color: white;
+    font-size: 13px;
+    font-weight: normal;
+  }
+  .wavedecsatu img{
+    margin-bottom: 10px;
+  }
+  .wavedecsdua{
+    padding-top: 40px;
+    margin-left: 75px;
+  }
+  .wavedecsdua p{
+    margin-top: 15px;
+    color: white;
+    font-family: inter;
+    font-size: 13px;
+  }
+  .wavedecstiga{
+    padding-top: 40px;
+    margin-left: 75px;
+  }
+  .wavedecstiga p{
+    margin-top: 15px;
+    color: white;
+    font-family: inter;
+    font-size: 13px;
+  }
+  .wavedecsempat{
+    padding-top: 40px;
+    margin-left: 75px;
+  }
+  .wavedecsempat p{
+    margin-top: 15px;
+    color: white;
+    font-family: inter;
+    font-size: 13px;
+  }
+  .wavedecsempat li{
+    list-style-type: circle;
+    margin-top: 15px;
+    color: white;
+    font-family: inter;
+    font-size: 13px;
+  }
+  .copyright h1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-family: inter;
+    font-size: 12px;
+  }

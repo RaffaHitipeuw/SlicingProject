@@ -1,0 +1,337 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+iframe{
+  width: 100%;
+}
+body{
+    background-color: #F2F4F7;
+}
+.nav {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+.navigation {
+  padding-top: 20px;
+  font-family: sans-serif;
+  font-weight: 530;
+  display: flex;
+  background-color: white;
+  margin-bottom: 320px;
+  padding-bottom: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.navimage {
+  margin-left: 190px;
+  margin-right: 350px;
+}
+.navmenu {
+  margin-top: 18px;
+  text-indent: 40px;
+}
+.navmenu a {
+  text-decoration: none;
+  color: gray;
+}
+.navmenu a:hover {
+  color: black;
+}
+ul {
+  list-style-type: none;
+  color: black;
+  display: flex;
+}
+.navbutton {
+  margin-left: 300px;
+}
+.navbutton button {
+  background: rgb(33, 149, 239);
+  background: linear-gradient(
+    34deg,
+    rgba(33, 149, 239, 1) 45%,
+    rgba(167, 213, 251, 1) 100%
+  );
+  color: white;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 30px;
+}
+.head {
+  z-index: 1;
+  margin-top: -550px;
+}
+.head h1 {
+  font-family: inter;
+  font-size: 40px;
+  text-align: center;
+}
+.headtext {
+  position: absolute;
+  z-index: 2;
+  background-color: white;
+  width: 350px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 20px;
+  margin-top: -120px;
+  margin-left: 70px;
+}
+/* Upper */
+.upper{
+display: flex;
+margin-top: 70px;
+justify-content: center;
+}
+.alamat{
+
+}
+.alamat h1{
+    font-family: inter;
+    color: black;
+    margin-bottom: 20px;
+}
+.alamat p{
+    color: #383838;
+    font-weight: bold;
+    font-family: inter;
+}
+.telefon{
+    margin-left: 70px
+}
+.telefon h1{
+    font-family: inter;
+    color: black;
+    margin-bottom: 20px;
+}
+.telefon p{
+    color: #383838;
+    font-weight: bold;
+    font-family: inter;
+}
+.ikutikami{
+    margin-left: 70px
+}
+.ikutikami h1{
+    font-family: inter;
+    color: black;
+    margin-bottom: 20px;
+}
+.ikutikami p{
+    color: #383838;
+    font-weight: bold;
+    font-family: inter;
+}
+.email{
+    margin-left: 70px
+}
+.email h1{
+    font-family: inter;
+    color: black;
+    margin-bottom: 20px;
+}
+.email p{
+    color: #383838;
+    font-weight: bold;
+    font-family: inter;
+}
+.maps{
+    margin-top: 130px;
+}
+.confeedback{
+    position: absolute;
+    background-color: white;
+    width: 600px;
+    height: 550px;
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: -530px;
+    margin-left: 70px;
+}
+.conupper h1{
+    font-family: inter;
+    color: black;
+    padding-top: 50px;
+    padding-left: 70px;
+}
+.conupper p{
+    font-family: inter;
+    padding-left: 70px;
+    color: #383838;
+    margin-top: 15px;
+}
+.condown{
+    margin-top: 40px;
+}
+.condown form{
+    font-family: inter;
+}
+.condownupper{
+    display: flex;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    box-sizing: border-box;
+  }
+.condownsatu{
+    margin-left: 70px;
+}
+.condowndua {
+    margin-left: 20px;
+}
+.condownmiddle{
+    margin-left: 70px;
+    margin-top: 10px;
+}
+input[type=email], select {
+    width: 81%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    box-sizing: border-box;
+  }
+  textarea[id=message], select {
+    width: 81%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    box-sizing: border-box;
+  }
+.condownmiddle button{
+    margin-top: 10px;
+    background-color: #383838;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    border: none;
+    font-family: inter;
+    border-radius: 7px;
+}
+.footer{
+    background-color: white;
+    padding-top: 100px;
+  }
+  .footer h1{
+    font-family: inter;
+    text-align: center;
+    font-size: 40px;
+  }
+  .footer h1 span{
+    color: #ff3b30;
+  }
+  .footerbutton{
+    display: flex;
+  }
+  .footerbuttonwa button{
+    margin-top: 30px;
+    background-color: #ff3b30;
+    color: white;
+    border: none;
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 30px;
+    font-family: inter;
+    margin-left: 550px;
+  
+  }
+  .buttondemo button{
+    margin-top: 28px;
+    margin-left: 20px;
+    background: rgb(33, 149, 239);
+    background: linear-gradient(
+      34deg,
+      rgba(33, 149, 239, 1) 45%,
+      rgba(167, 213, 251, 1) 100%
+    );
+    color: white;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 30px;
+  }
+  .backwave{
+    background: rgb(0,153,255);
+    background: linear-gradient(150deg, rgba(0,153,255,1) 86%, rgba(255,255,255,1) 100%);
+  }
+  .backwavetext{
+    height: 400px;
+    margin-top: -10px;
+    display: flex;
+  }
+  .wavedecsatu{
+    padding-top: 40px;
+    margin-left: 125px;
+    font-family: inter;
+    color: white;
+    font-size: 13px;
+    font-weight: normal;
+  }
+  .wavedecsatu img{
+    margin-bottom: 10px;
+  }
+  .wavedecsdua{
+    padding-top: 40px;
+    margin-left: 75px;
+  }
+  .wavedecsdua p{
+    margin-top: 15px;
+    color: white;
+    font-family: inter;
+    font-size: 13px;
+  }
+  .wavedecstiga{
+    padding-top: 40px;
+    margin-left: 75px;
+  }
+  .wavedecstiga p{
+    margin-top: 15px;
+    color: white;
+    font-family: inter;
+    font-size: 13px;
+  }
+  .wavedecsempat{
+    padding-top: 40px;
+    margin-left: 75px;
+  }
+  .wavedecsempat p{
+    margin-top: 15px;
+    color: white;
+    font-family: inter;
+    font-size: 13px;
+  }
+  .wavedecsempat li{
+    list-style-type: circle;
+    margin-top: 15px;
+    color: white;
+    font-family: inter;
+    font-size: 13px;
+  }
+  .copyright h1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-family: inter;
+    font-size: 12px;
+  }

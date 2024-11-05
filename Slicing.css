@@ -3,11 +3,9 @@
   padding: 0;
 }
 
-
-.nav{
+.nav {
   position: sticky;
   top: 0;
-
 }
 .navigation {
   padding-top: 20px;
@@ -26,6 +24,13 @@
 .navmenu {
   margin-top: 18px;
   text-indent: 40px;
+}
+.navmenu a{
+  text-decoration: none;
+  color: gray;
+}
+.navmenu a:hover {
+  color: black;
 }
 ul {
   list-style-type: none;
@@ -52,9 +57,8 @@ ul {
   border-radius: 30px;
 }
 
-
 /* Bagian Bawah (Navbar) */
-.inovasi{
+.inovasi {
   padding-top: 160px;
   color: white;
   font-family: inter;
@@ -69,24 +73,23 @@ ul {
   height: 800px;
   padding-left: 200px;
   z-index: 2;
-
 }
-.inovasi h1{
+.inovasi h1 {
   font-size: 40px;
 }
-.inovasi p{
+.inovasi p {
   margin-top: 30px;
 }
-.inovasi span{
-  color: #FF4A4A;
+.inovasi span {
+  color: #ff4a4a;
 }
-.inovasiimg{
+.inovasiimg {
   margin-top: 20px;
   margin-left: 150px;
 }
-.inovasikiri button{
+.inovasikiri button {
   margin-top: 30px;
-  background-color: #FF3B30;
+  background-color: #ff3b30;
   color: white;
   border: none;
   padding: 12px 32px;
@@ -97,43 +100,46 @@ ul {
   border-radius: 30px;
   font-family: inter;
 }
-.gagasan{
-  background: rgb(39,161,255);
-  background: linear-gradient(0deg, rgba(39,161,255,1) 0%, rgba(255,255,255,1) 100%);
-  height: 1800px;
-
+.gagasan {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(68, 145, 205, 1) 40%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  /* height: 3200px; */
 }
 
-.kebutuhan{
+.kebutuhan {
   font-family: inter;
-  background-color: white;  
+  background-color: white;
   width: 1400px;
   height: 500px;
   margin-left: 65px;
   border-radius: 35px;
   margin-top: -100px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-
 }
-.kebutuhantengah{
+.kebutuhantengah {
   text-align: center;
   padding-top: 50px;
 }
-.kebutuhantengah h1{
+.kebutuhantengah h1 {
   color: black;
   font-size: 35px;
 }
-.kebutuhantengah span{
-  color: #FF3B30;
+.kebutuhantengah span {
+  color: #ff3b30;
 }
-.kebutuhantengah img{
+.kebutuhantengah img {
   margin-top: 30px;
 }
-.tentang{
+.tentang {
 }
-.tentangbutton button{
+.tentangbutton button {
   background-color: white;
-  color: #2C9BF3;
+  color: #2c9bf3;
   border: none;
   padding: 12px 32px;
   text-align: center;
@@ -146,65 +152,668 @@ ul {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   margin-left: 650px;
 }
-.tentangbio{
+.tentangbio {
   margin-top: 100px;
   margin-left: 110px;
   display: flex;
 }
-.tentangbio h1{
+.tentangbio h1 {
   color: black;
   font-family: inter;
   font-size: 30px;
 }
-.tentangbiokiri h1 span{
-  color: #FF3B30;
+.tentangbiokiri h1 span {
+  color: #ff3b30;
 }
-.tentangbiokiri p{
+.tentangbiokiri p {
   margin-top: 20px;
   color: #383838;
   font-family: inter;
   font-size: 15px;
 }
-.tentangbiokiri p span{
+.tentangbiokiri p span {
   color: #383838;
   font-weight: bold;
 }
-.tentangbiokanan{
+.tentangbiokanan {
   margin-left: 450px;
 }
-.masalah{
+.masalah {
   margin-top: 200px;
 }
-.masalah h1{
- font-family: inter;
- font-size: 30px;
- color: white;
- text-align: center;
+.masalah h1 {
+  font-family: inter;
+  font-size: 30px;
+  color: white;
+  text-align: center;
 }
-.masalah h1 span{
-  color: #FF3B30;
+.masalah h1 span {
+  color: #ff3b30;
 }
-.masalah p{
+.masalah p {
   font-family: inter;
   text-align: center;
   font-size: 15px;
   color: white;
   margin-top: 10px;
 }
-.masalah img{
-  margin-left: 130px;
+
+.masalahimage {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+.masalah1 {
+  width: 300px;
+  padding: 5px;
+}
+.masalah1 img {
+  width: 100%;
+}
+.masalah2 {
+  width: 300px;
+  padding: 5px;
+}
+.masalah2 img {
+  width: 100%;
+}
+.masalah3 {
+  width: 300px;
+  padding: 5px;
+}
+.masalah3 img {
+  width: 100%;
+}
+.masalahimagebawah {
+  display: flex;
+  justify-content: center;
+}
+.masalah4 {
+  width: 300px;
+  padding: 5px;
+}
+.masalah4 img {
+  width: 100%;
+}
+.masalah5 {
+  width: 300px;
+  padding: 5px;
+}
+.masalah5 img {
+  width: 100%;
+}
+.masalah6 {
+  width: 300px;
+  padding: 5px;
+}
+.masalah6 img {
+  width: 100%;
+}
+.atasi {
+  margin-top: 100px;
+}
+.atasi h1 {
+  color: white;
+  font-family: inter;
+  text-align: center;
+  font-size: 30px;
+}
+.atasi h1 span {
+  color: #ff4a4a;
+}
+.atasi p {
+  margin-top: 20px;
+  font-family: inter;
+  color: white;
+  text-align: center;
+}
+.atasi button {
+  margin-top: 30px;
+  background-color: #ff3b30;
+  color: white;
+  border: none;
+  padding: 12px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 30px;
+  font-family: inter;
+  margin-left: 680px;
+}
+.fitur {
+  display: flex;
+  margin-top: 200px;
+}
+.fiturbutton button {
+  margin-bottom: -50px;
+  background-color: #ffffff;
+  color: #2c9bf3;
+  border: none;
+  padding: 12px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 30px;
+  font-family: inter;
+  margin-left: 150px;
+  font-weight: bold;
+  height: 100px;
+  width: 260px;
+}
+.fiturbutton button h1 {
+  margin-bottom: 50px;
+}
+.fiturkiri {
+  margin-top: 40px;
+  background-color: #ffffff;
+  width: 800px;
+  border-radius: 40px;
+  display: flex;
+  margin-left: -350px;
+  height: 550px;
+  margin-right: 50px;
+}
+.fiturcheck {
+  margin-top: 62px;
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.fiturcheck img {
+  padding-bottom: 11.5px;
+}
+.fiturlorem {
+  margin-top: 57px;
+  font-family: inter;
+  margin-left: 10px;
+}
+.fiturlorem h1 {
+  padding-top: 10px;
+  padding-bottom: 11.9px;
+  font-weight: normal;
+}
+.fiturkiri .fiturlorem hr {
+  width: 500px;
+  color: black;
+}
+.testibutton button {
+  background-color: #ffffff;
+  color: #2c9bf3;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  border-radius: 30px;
+  font-family: inter;
+  margin-left: 630px;
+  font-weight: bold;
+  height: 50px;
+  width: 260px;
+  padding-bottom: 50px;
+}
+.testibutton button h1 {
+  margin-top: 3px;
+}
+.kata {
+  background-color: white;
+  height: 500px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-top: -20px;
+}
+.kata h1 {
+  margin-top: ;
+  font-family: inter;
+  text-align: center;
+  font-size: 35px;
+}
+.kataprofil {
+  display: flex;
+  background-color: white;
+}
+.kataprofil1 {
+  background: rgb(64, 164, 244);
+  background: linear-gradient(
+    331deg,
+    rgba(64, 164, 244, 1) 86%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  width: 400px;
+  margin-left: 70px;
+  border-radius: 40px;
+  height: 700px;
+  margin-top: -250px;
+}
+.kataprofil1 h1 {
+  color: white;
+  font-family: inter;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.kataimage {
+  margin-left: 105px;
+  margin-bottom: 25px;
+}
+.katabarra {
+  margin-left: 75px;
+  margin-bottom: 20px;
+}
+.katabarra img {
+  margin-top: -80px;
+}
+.kataprofil1 h2 {
+  color: white;
+  font-family: inter;
+  text-align: center;
+  font-weight: normal;
+  font-size: 22px;
+}
+.kataprofil1 hr {
+  width: 350px;
+  margin-left: 25px;
+  margin-bottom: 30px;
+}
+.katanizar {
+  margin-left: 75px;
+  margin-bottom: 20px;
+}
+.katanizar img {
+  margin-top: -80px;
+}
+.kataprofil2 h2 {
+  color: white;
+  font-family: inter;
+  text-align: center;
+  font-weight: normal;
+  font-size: 22px;
+}
+.kataprofil2 hr {
+  width: 350px;
+  margin-left: 25px;
+  margin-bottom: 30px;
+}
+.kataprofil2 {
+  background: rgb(64, 164, 244);
+  background: linear-gradient(
+    331deg,
+    rgba(64, 164, 244, 1) 86%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  width: 400px;
+  margin-left: 100px;
+  border-radius: 40px;
+  height: 700px;
+  margin-top: -250px;
+}
+.kataprofil2 h1 {
+  color: white;
+  font-family: inter;
+  text-align: center;
+  margin-bottom: 30px;
+}
+/* Fadel */
+.katafadel {
+  margin-left: 75px;
+  margin-bottom: 20px;
+}
+.katafadel img {
+  margin-top: -80px;
+}
+.kataprofil3 h2 {
+  color: white;
+  font-family: inter;
+  text-align: center;
+  font-weight: normal;
+  font-size: 22px;
+}
+.kataprofil3 hr {
+  width: 350px;
+  margin-left: 25px;
+  margin-bottom: 30px;
+}
+.kataprofil3 {
+  background: rgb(64, 164, 244);
+  background: linear-gradient(
+    331deg,
+    rgba(64, 164, 244, 1) 86%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  width: 400px;
+  margin-left: 100px;
+  border-radius: 40px;
+  height: 700px;
+  margin-top: -250px;
+}
+.kataprofil3 h1 {
+  color: white;
+  font-family: inter;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.blog {
+  padding-top: 200px;
+  background-color: white;
+  padding-bottom: 200px;
+}
+.blogdecs h1 {
+  font-family: inter;
+  text-align: center;
+  font-size: 35px;
+}
+.blogdecs h2 {
+  margin-top: 20px;
+  font-family: inter;
+  text-align: center;
+  font-size: 20px;
+  font-weight: normal;
+}
+.blogcolumn {
+  display: flex;
   margin-top: 50px;
 }
-.atasi{
+
+/* Blog Satu */
+.blogsatu {
+  background-color: white;
+  width: 347px;
+  border-radius: 49px;
+  margin-left: 200px;
+  height: 530px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.blogsatuimage {
+  margin-left: -3px;
+}
+.blogsatudecs h1 {
+  font-family: inter;
+  margin-top: 35px;
+  margin-left: 15px;
+}
+.blogsatudecs p {
+  font-family: inter;
+  color: gray;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+.blogsatudecs h2 {
+  margin-top: 20px;
+  font-family: inter;
+  color: #5193e7;
+  font-weight: normal;
+  font-size: 18px;
+  margin-left: 15px;
+}
+/* Blog Dua */
+.blogdua {
+  background-color: white;
+  width: 347px;
+  border-radius: 49px;
+  margin-left: 40px;
+  height: 530px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.blogduaimage {
+  margin-left: -3px;
+}
+.blogduadecs h1 {
+  font-family: inter;
+  margin-top: 35px;
+  margin-left: 15px;
+}
+.blogduadecs p {
+  font-family: inter;
+  color: gray;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+.blogduadecs h2 {
+  margin-top: 20px;
+  font-family: inter;
+  color: #5193e7;
+  font-weight: normal;
+  font-size: 18px;
+  margin-left: 15px;
+}
+/* Blog Tiga */
+.blogtiga {
+  background-color: white;
+  width: 347px;
+  border-radius: 49px;
+  margin-left: 40px;
+  height: 530px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.blogtigaimage {
+  margin-left: -3px;
+}
+.blogtigadecs h1 {
+  font-family: inter;
+  margin-top: 35px;
+  margin-left: 15px;
+}
+.blogtigadecs p {
+  font-family: inter;
+  color: gray;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+.blogtigadecs h2 {
+  margin-top: 20px;
+  font-family: inter;
+  color: #5193e7;
+  font-weight: normal;
+  font-size: 18px;
+  margin-left: 15px;
+}
+
+.blogcolumnsecond{
+  display: flex;
+  margin-top: 30px;
+}
+/* Blog Empat */
+.blogempat {
+  background-color: white;
+  width: 347px;
+  border-radius: 49px;
+  margin-left: 200px;
+  height: 530px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.blogempatimage {
+  margin-left: -3px;
+}
+.blogempatdecs h1 {
+  font-family: inter;
+  margin-top: 35px;
+  margin-left: 15px;
+}
+.blogempatdecs p {
+  font-family: inter;
+  color: gray;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+.blogempatdecs h2 {
+  margin-top: 20px;
+  font-family: inter;
+  color: #5193e7;
+  font-weight: normal;
+  font-size: 18px;
+  margin-left: 15px;
+}
+/* Blog Lima */
+.bloglima {
+  background-color: white;
+  width: 347px;
+  border-radius: 49px;
+  margin-left: 40px;
+  height: 530px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.bloglimaimage {
+  margin-left: -3px;
+}
+.bloglimadecs h1 {
+  font-family: inter;
+  margin-top: 35px;
+  margin-left: 15px;
+}
+.bloglimadecs p {
+  font-family: inter;
+  color: gray;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+.bloglimadecs h2 {
+  margin-top: 20px;
+  font-family: inter;
+  color: #5193e7;
+  font-weight: normal;
+  font-size: 18px;
+  margin-left: 15px;
+}
+/* Blog Enam */
+.blogenam {
+  background-color: white;
+  width: 347px;
+  border-radius: 49px;
+  margin-left: 40px;
+  height: 530px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.blogenamimage {
+  margin-left: -3px;
+}
+.blogenamdecs h1 {
+  font-family: inter;
+  margin-top: 35px;
+  margin-left: 15px;
+}
+.blogenamdecs p {
+  font-family: inter;
+  color: gray;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+.blogenamdecs h2 {
+  margin-top: 20px;
+  font-family: inter;
+  color: #5193e7;
+  font-weight: normal;
+  font-size: 18px;
+  margin-left: 15px;
+}
+.footer{
+  background-color: white;
+}
+.footer h1{
+  font-family: inter;
+  text-align: center;
+  font-size: 40px;
+}
+.footer h1 span{
+  color: #ff3b30;
+}
+.footerbutton{
+  display: flex;
+}
+.footerbuttonwa button{
+  margin-top: 30px;
+  background-color: #ff3b30;
+  color: white;
+  border: none;
+  padding: 12px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 30px;
+  font-family: inter;
+  margin-left: 550px;
 
 }
-.atasi h1{
+.buttondemo button{
+  margin-top: 28px;
+  margin-left: 20px;
+  background: rgb(33, 149, 239);
+  background: linear-gradient(
+    34deg,
+    rgba(33, 149, 239, 1) 45%,
+    rgba(167, 213, 251, 1) 100%
+  );
   color: white;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 30px;
 }
-.atasi h1 span{
-color: ;
-} 
-.atasi p{
-  
+.backwave{
+  background: rgb(0,153,255);
+  background: linear-gradient(150deg, rgba(0,153,255,1) 86%, rgba(255,255,255,1) 100%);
 }
-.atasi{}
+.backwavetext{
+  height: 400px;
+  margin-top: -10px;
+  display: flex;
+}
+.wavedecsatu{
+  padding-top: 40px;
+  margin-left: 125px;
+  font-family: inter;
+  color: white;
+  font-size: 13px;
+  font-weight: normal;
+}
+.wavedecsatu img{
+  margin-bottom: 10px;
+}
+.wavedecsdua{
+  padding-top: 40px;
+  margin-left: 75px;
+}
+.wavedecsdua p{
+  margin-top: 15px;
+  color: white;
+  font-family: inter;
+  font-size: 13px;
+}
+.wavedecstiga{
+  padding-top: 40px;
+  margin-left: 75px;
+}
+.wavedecstiga p{
+  margin-top: 15px;
+  color: white;
+  font-family: inter;
+  font-size: 13px;
+}
+.wavedecsempat{
+  padding-top: 40px;
+  margin-left: 75px;
+}
+.wavedecsempat p{
+  margin-top: 15px;
+  color: white;
+  font-family: inter;
+  font-size: 13px;
+}
+.wavedecsempat li{
+  list-style-type: circle;
+  margin-top: 15px;
+  color: white;
+  font-family: inter;
+  font-size: 13px;
+}
+.copyright h1{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  font-family: inter;
+  font-size: 12px;
+}
+
