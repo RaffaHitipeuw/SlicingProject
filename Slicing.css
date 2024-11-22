@@ -115,7 +115,7 @@ ul {
   font-family: inter;
   background-color: white;
   width: 1400px;
-  height: 500px;
+  height: 530px;
   margin-left: 65px;
   border-radius: 35px;
   margin-top: -100px;
@@ -134,6 +134,12 @@ ul {
 }
 .kebutuhantengah img {
   margin-top: 30px;
+}
+.kebutuhantengahatas img{
+  margin-left: 10px;
+}
+.kebutuhantengahbawah img{
+  margin-left: 10px;
 }
 .tentang {
 }
@@ -817,3 +823,18 @@ ul {
   font-size: 12px;
 }
 
+.humberger{
+  display: none;
+}
+/* Rensponsive Handphone */
+@media only screen and (max-width: 600px) {
+  .navmenu{
+    display: none;
+  }
+  .navbutton{
+    display: none;
+  }
+  .humberger{
+    display: block;
+  }
+}
