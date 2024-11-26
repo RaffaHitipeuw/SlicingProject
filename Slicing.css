@@ -80,8 +80,11 @@ ul {
 .inovasi p {
   margin-top: 30px;
 }
-.inovasi span {
+.inovasi section h1 span {
   color: #ff4a4a;
+}
+.inovasi main h1{
+  display: none;
 }
 .inovasiimg {
   margin-top: 20px;
@@ -129,6 +132,9 @@ ul {
   color: black;
   font-size: 35px;
 }
+.kebutuhantengah main h1{
+  display: none;
+}
 .kebutuhantengah span {
   color: #ff3b30;
 }
@@ -138,8 +144,14 @@ ul {
 .kebutuhantengahatas img{
   margin-left: 10px;
 }
+.kebutuhantengahatass{
+  display: none;
+}
 .kebutuhantengahbawah img{
   margin-left: 10px;
+}
+.kebutuhantengahbawahh{
+  display: none;
 }
 .tentang {
 }
@@ -835,6 +847,63 @@ ul {
     display: none;
   }
   .humberger{
+    display: block;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  .inovasi{
+    width: 350px;
+  }
+  .navigation{
+    width: 550px;
+  }
+  .navimage{
+    margin-left: 80px;
+    margin-bottom: 10px;
+  }
+  .inovasikiri section{
+    display: none;
+  }
+  .inovasikiri main h1{
+    display: flex;
+  }
+  .inovasikiri main h1{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin-right: 450px;
+  }
+  .inovasikiri P{
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    margin-right: 450px;
+  }
+  .inovasiimg{
+    display: none;
+  }
+  /* SECTION 1 CLEAR */
+
+  .kebutuhan{
+    width: 480px;
+    height: max-content;
+  }
+  .kebutuhan h1{
+    display: none;
+  }
+  .kebutuhan main h1{
+    display: flex;
+  }
+  .kebutuhantengahatas{
+    display: none;
+  }
+  .kebutuhantengahbawah{
+    display: none;
+  }
+  .kebutuhantengahatass{
+    display: block;
+  }
+  .kebutuhantengahbawahh{
     display: block;
   }
 }
