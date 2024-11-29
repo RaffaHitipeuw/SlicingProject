@@ -16,10 +16,11 @@
   margin-bottom: 320px;
   padding-bottom: 10px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  justify-content: space-around;
+  width: 3557px;
 }
 .navimage {
-  margin-left: 190px;
-  margin-right: 350px;
+
 }
 .navmenu {
   margin-top: 18px;
@@ -38,7 +39,7 @@ ul {
   display: flex;
 }
 .navbutton {
-  margin-left: 300px;
+  /* margin-left: 300px; */
 }
 .navbutton button {
   background: rgb(33, 149, 239);
@@ -59,6 +60,7 @@ ul {
 
 /* Bagian Bawah (Navbar) */
 .inovasi {
+  justify-content: space-around;
   padding-top: 160px;
   color: white;
   font-family: inter;
@@ -71,8 +73,8 @@ ul {
     rgba(167, 213, 251, 1) 100%
   );
   height: 800px;
-  padding-left: 200px;
   z-index: 2;
+  width: 3557px;
 }
 .inovasi h1 {
   font-size: 40px;
@@ -88,7 +90,6 @@ ul {
 }
 .inovasiimg {
   margin-top: 20px;
-  margin-left: 150px;
 }
 .inovasikiri button {
   margin-top: 30px;
@@ -111,18 +112,24 @@ ul {
     rgba(68, 145, 205, 1) 40%,
     rgba(255, 255, 255, 1) 100%
   );
+  width: 3557px;
   /* height: 3200px; */
 }
-
+.boxkebutuhan{
+  display: flex;
+  justify-content: center;
+  width: 3557px;
+}
 .kebutuhan {
   font-family: inter;
   background-color: white;
   width: 1400px;
   height: 530px;
-  margin-left: 65px;
   border-radius: 35px;
   margin-top: -100px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    justify-content: center;
 }
 .kebutuhantengah {
   text-align: center;
@@ -153,7 +160,16 @@ ul {
 .kebutuhantengahbawahh{
   display: none;
 }
+.boxtentang{
+  display: flex;
+  justify-content: center;
+}
 .tentang {
+  
+}
+.tentangbutton{
+  display: flex;
+  justify-content: center;
 }
 .tentangbutton button {
   background-color: white;
@@ -168,12 +184,11 @@ ul {
   font-family: inter;
   margin-top: 300px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  margin-left: 650px;
 }
 .tentangbio {
   margin-top: 100px;
-  margin-left: 110px;
   display: flex;
+  justify-content: center;
 }
 .tentangbio h1 {
   color: black;
@@ -297,11 +312,15 @@ ul {
   font-size: 16px;
   border-radius: 30px;
   font-family: inter;
-  margin-left: 680px;
+}
+.buttonatasi{
+  display: flex;
+  justify-content: center;
 }
 .fitur {
   display: flex;
   margin-top: 200px;
+  justify-content: center;
 }
 .fiturbutton button {
   margin-bottom: -50px;
@@ -356,6 +375,10 @@ ul {
   width: 500px;
   color: black;
 }
+.testibutton{
+  display: flex;
+  justify-content: center;
+}
 .testibutton button {
   background-color: #ffffff;
   color: #2c9bf3;
@@ -366,7 +389,6 @@ ul {
   font-size: 13px;
   border-radius: 30px;
   font-family: inter;
-  margin-left: 630px;
   font-weight: bold;
   height: 50px;
   width: 260px;
@@ -382,7 +404,6 @@ ul {
   margin-top: -20px;
 }
 .kata h1 {
-  margin-top: ;
   font-family: inter;
   text-align: center;
   font-size: 35px;
@@ -390,6 +411,7 @@ ul {
 .kataprofil {
   display: flex;
   background-color: white;
+  justify-content: center;
 }
 .kataprofil1 {
   background: rgb(64, 164, 244);
@@ -530,6 +552,7 @@ ul {
 .blogcolumn {
   display: flex;
   margin-top: 50px;
+  justify-content: center;
 }
 
 /* Blog Satu */
@@ -537,7 +560,6 @@ ul {
   background-color: white;
   width: 347px;
   border-radius: 49px;
-  margin-left: 200px;
   height: 530px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
@@ -628,6 +650,7 @@ ul {
 
 .blogcolumnsecond{
   display: flex;
+  justify-content: center;
   margin-top: 30px;
 }
 /* Blog Empat */
@@ -635,7 +658,6 @@ ul {
   background-color: white;
   width: 347px;
   border-radius: 49px;
-  margin-left: 200px;
   height: 530px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
@@ -726,6 +748,10 @@ ul {
 .footer{
   background-color: white;
 }
+.footertext{
+  display: flex;
+  justify-content: center;
+}
 .footer h1{
   font-family: inter;
   text-align: center;
@@ -735,7 +761,10 @@ ul {
   color: #ff3b30;
 }
 .footerbutton{
+}
+.boxbutton{
   display: flex;
+  justify-content: center;
 }
 .footerbuttonwa button{
   margin-top: 30px;
@@ -748,8 +777,7 @@ ul {
   display: inline-block;
   font-size: 16px;
   border-radius: 30px;
-  font-family: inter;
-  margin-left: 550px;
+  font-family: inter; 
 
 }
 .buttondemo button{
